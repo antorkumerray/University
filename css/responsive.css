@@ -1,0 +1,245 @@
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .menubtn{
+        display: initial;
+        width: 40px;
+    }
+    .menubtn i {
+        font-size: 30px;
+        color: white;
+    }
+    .menu{
+        position: absolute;
+        content: '';
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background: #f88f05;
+        display: none;
+        padding-bottom: 10px;
+    }
+    .menu a{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    .menu.show{
+        display: block;
+    }
+    .responsive {
+        min-height: auto;
+    }
+    .text-box {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .text-box button{
+        background: #f88f05;
+        color: white;
+        border: 2px solid #f88f05;
+    }
+    .text-box h1 {
+        font-size: 60px;
+        margin-bottom: 20px;
+        line-height: 68px;
+    }
+    .heading h2 {
+        font-size: 50px;
+    }
+    .heading p {
+        font-size: 18px;
+    }
+    .course-warp {
+        display: block;
+    }
+    .course-box {
+        margin: 20px 10px;
+        padding: 20px;
+    }
+    .campus-warper {
+        display: block;
+    }
+    .campus-box {
+        margin-bottom: 15px;
+        height: 90vh;
+    }
+    .facilities-warper {
+        display: block;
+    }
+    .facilities-box {
+        margin-bottom: 60px;
+    }
+    .course-box {
+        min-height: 10vh !important;
+    }
+    .client-box {
+        display: block;
+        flex-basis: 40%;
+    }
+    .client-box img {
+        width: 80px;
+        height: 80px;
+    }
+    .play-btn-text button{
+        background: #f88f05;
+        color: white;
+        border: 2px solid #f88f05;
+    }
+    #play-btn {
+        padding: 0;
+    }
+    .play-btn-text {
+        border-radius: 0;
+    }
+    .play-btn-text h2 {
+        font-size: 29px;
+        padding: 0 10px;
+    }
+    /* About Page Responsive Code Start Here */
+    .about-responsive {
+        min-height: auto;
+    }
+    .about-section-warper {
+        flex-direction: column;
+    }
+    .about-left-section {
+        margin-bottom: 20px;
+        flex-basis: 48%;
+    }
+    .about-right-section {
+        flex-basis: 48%;
+    }
+    .blog-responsive {
+        min-height: auto;
+    }
+    .blog-post-right {
+        display: none;
+    }
+    .blog-post-left {
+        flex-basis: 100%;
+    }
+    #comment-submit {
+        margin: 0 auto;
+    }
+    .contact-responsive {
+        min-height: auto;
+    }
+    .contact-us-warper {
+        display: block;
+    }
+    .place {
+        flex-basis: 85%;
+    }
+}
+
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    .menubtn{
+        display: initial;
+        width: 40px;
+    }
+    .menubtn i {
+        font-size: 30px;
+        color: white;
+    }
+    .menu{
+        position: absolute;
+        content: '';
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background: #f88f05;
+        display: none;
+        padding-bottom: 10px;
+    }
+    .menu a{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    .menu.show{
+        display: block;
+    }
+    .responsive {
+        min-height: auto;
+    }
+    .text-box {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .text-box button{
+        background: #f88f05;
+        color: white;
+        border: 2px solid #f88f05;
+    }
+    .text-box h1 {
+        font-size: 60px;
+        margin-bottom: 20px;
+        line-height: 68px;
+    }
+    .campus-box {
+        flex-basis: 32%;
+        height: 40vh;
+    }
+    .hover-text {
+        text-align: center;
+    }
+    .client-box {
+        padding: 30px 10px;
+        flex-basis: 45%;
+    }
+    .play-btn-text button{
+        background: #f88f05;
+        color: white;
+        border: 2px solid #f88f05;
+    }
+
+
+
+    /* About ------------------ */
+    .about-responsive {
+        min-height: auto;
+    }
+    .about-left-section h2 {
+        font-size: 24px;
+    }
+    .about-right-section img {
+        height: 100%;
+    }
+    .about-left-section {
+        margin-bottom: 20px;
+        flex-basis: 48%;
+    }
+    .about-right-section {
+        flex-basis: 48%;
+    }
+    .course-responsive {
+        min-height: auto;
+    }
+    .course-box {
+        min-height: 25vh;
+    }
+    .blog-responsive {
+        min-height: auto;
+    }
+    .contact-responsive {
+        min-height: auto;
+    }
+    
+    .contact-box i {
+        margin-right: 10px;
+    }
+    .place {
+        flex-basis: 80%;
+    }
+    .contact-box {
+        margin-bottom: 22px;
+    }
+    #comment-submit {
+        margin: 0 auto;
+    }
+}
+
